@@ -22,34 +22,6 @@ namespace NYPProje
             ParaIslemleri = new List<ParaIslemleri>();
             HavaleIslemleri = new List<Havale>();
 
-            Musteri.Add(new MusteriDetay
-            {
-                Isim = "Ali Murat",
-                Soyisim = "El",
-                MusteriNo = 1,
-                KayitTarihi = DateTime.Now
-            });
-            Musteri.Add(new MusteriDetay
-            {
-                Isim = "Ali Emre",
-                Soyisim = "Değirmenci",
-                MusteriNo = 2,
-                KayitTarihi = DateTime.Now
-            });
-            Musteri.Add(new MusteriDetay
-            {
-                Isim = "Furkan",
-                Soyisim = "Kart",
-                MusteriNo = 3,
-                KayitTarihi = DateTime.Now
-            });
-            Musteri.Add(new MusteriDetay
-            {
-                Isim = "Halil",
-                Soyisim = "Alan",
-                MusteriNo = 4,
-                KayitTarihi = DateTime.Now
-            });
         }
         public static Result MusteriEkle(MusteriDetay mus)
         {
